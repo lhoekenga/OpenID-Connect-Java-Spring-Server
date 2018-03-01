@@ -211,7 +211,7 @@
             "no-clients": "There are no registered clients on this server.",
             "no-matches": "There are no clients that match your search criteria.",
             "no-redirect": "NO REDIRECT URI",
-            "registered": "Registrered",
+            "registered": "Registered",
             "search": "Search...",
             "whitelist": "Whitelist",
             "unknown": "at an unknown time"
@@ -372,7 +372,7 @@
     	"empty": "There are no blacklisted URIs on this server.",
     	"uri": "URI"
     },
-	"copyright": "Powered by <a href=\"https://github.com/mitreid-connect/\">MITREid Connect <span class=\"label\">{0}</span></a> <span class=\"pull-right\">&copy; 2017 The MIT Internet Trust Consortium.</span>.",
+	"copyright": "Powered by <a href=\"https://github.com/mitreid-connect/\">MITREid Connect <span class=\"label\">{0}</span></a> <span class=\"pull-right\">&copy; 2018 The MIT Internet Trust Consortium.</span>.",
 	"about": {
 		"title": "About",
 		"body": "\nThis OpenID Connect service is built from the MITREid Connect Open Source project, from \nthe <a href=\"http://www.trust.mit.edu/\">MIT Internet Trust Consortium</a>.\n</p>\n<p>\nMore information about the project can be found at \n<a href=\"http://github.com/mitreid-connect/\">MITREid Connect on GitHub</a>. \nThere, you can submit bug reports, give feedback, or even contribute code patches for additional features you'd like to see."
@@ -522,7 +522,7 @@
 			"title": "Logout requested",
 			"header": "Logout Requested",
 			"requested": "Logout has been requested by ",
-			"explanation": "Do you wan to log out of the identity provider? This will not affect your session at any other systems.",
+			"explanation": "Do you want to log out of the identity provider? This will not affect your session at any other systems.",
 			"submit": "Log Out",
 			"deny": "Stay Logged In"
 		},

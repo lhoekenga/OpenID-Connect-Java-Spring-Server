@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright 2017 The MIT Internet Trust Consortium
+ * Copyright 2018 The MIT Internet Trust Consortium
  *
  * Portions copyright 2011-2013 The MITRE Corporation
  *
@@ -548,6 +548,9 @@ $(function() {
 		});
 
 		var base = $('base').attr('href');
+		if (base.substr(-1) !== '/') {
+			base += '/';
+		}
 		$.getJSON(base + '.well-known/openid-configuration', function(data) {
 			app.serverConfiguration = data;
 			var baseUrl = $.url(app.serverConfiguration.issuer);
